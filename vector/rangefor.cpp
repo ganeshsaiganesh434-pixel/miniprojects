@@ -1,0 +1,16 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<int>v{10,20,30};
+    for(auto &x:v){
+        x=6;
+    
+    }
+    for(auto x:v){
+        cout<<x<<" ";
+    }
+    return 0;
+
+
+}
